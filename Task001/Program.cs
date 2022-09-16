@@ -1,4 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 0. Демонстрация решения
+// Напишите программу, которая на вход
+// 1 принимает число и 
+// 2 умноженное на само себя).
+// 3 выдаёт его квадрат (число
 
-int numA = 2;
+// Например:
+// 4 -> 16
+// -3 -> 9
+// -7 -> 49
+
+Console.Write("Введите целое число: ");
+int numA = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Квадрат числа {numA} равен {numA*numA}");
+

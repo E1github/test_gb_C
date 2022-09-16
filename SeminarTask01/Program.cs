@@ -1,4 +1,5 @@
 ﻿
+
 Console.Write("Введите первое целое число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
@@ -14,3 +15,4 @@ else
 {
     Console.WriteLine($"Число {numB} НЕ равно квадрату {numA}");
 }
+
