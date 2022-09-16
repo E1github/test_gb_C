@@ -1,5 +1,5 @@
 ﻿
-Console.Write("Введите первое число: ");
+Console.Write("Введите целое число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
 //if ((numA<1) || (numA>7)) Console.Write($"Число {numA} некорректно.");

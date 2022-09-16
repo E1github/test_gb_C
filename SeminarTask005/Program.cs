@@ -1,4 +1,6 @@
-﻿Console.Write("Введите целое число: ");
+﻿
+
+Console.Write("Введите целое число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
 int numAntiA = (-1)*numA;
