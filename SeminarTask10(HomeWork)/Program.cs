@@ -16,4 +16,6 @@ int SecondDigitOf3(int num)
     return arrayF[1];
 }
 
+// num / 10 % 10.
+
 Console.Write($"Вторая цифра: {SecondDigitOf3(numA)}");

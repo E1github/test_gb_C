@@ -15,6 +15,7 @@ string DayOfWeek(int num)
     else wday = "число некорректно.";
     return wday;
 }
+// if (num > 0 && num < 6) return "нет";
 
 Console.Write($"{numA} -> {DayOfWeek(numA)}");
 
