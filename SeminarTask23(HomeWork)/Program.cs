@@ -5,7 +5,7 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.Write("Введите число: ");
+Console.Write("Введите число от 1 и больше: ");
 int numX = Convert.ToInt32(Console.ReadLine());
 
 if (numX > 0) TablePow3 (numX);
@@ -16,23 +16,9 @@ void TablePow3 (int num)
     Console.WriteLine("===============");
     int counter = 1;
     while (counter <= num)
-    {
-        int counter3 = counter*counter*counter;
-        Console.WriteLine($"|{counter,4} |  {counter3,4} |");
+    {     
+        Console.WriteLine($"|{counter,4} |  {counter*counter*counter,4} |");
         counter++;
     }
     Console.WriteLine("===============");    
 }
-
-
-
-// string SrtingOfSqure (int num)
-// {
-//     return $"{num}   {num*num}";  
-// }
-
-// while (counter <= numX)
-// {
-//     Console.WriteLine(SrtingOfSqure(counter));
-//     counter++;
-// }

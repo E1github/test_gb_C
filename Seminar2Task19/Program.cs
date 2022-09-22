@@ -5,7 +5,7 @@
 // 12821 -> да 
 // 23432 -> да
 
-Console.Write("Введите число: ");
+Console.Write("Введите пятизначное число: ");
 int numX = Convert.ToInt32(Console.ReadLine());
 
 bool EqualDigitsIn5 (int num)
