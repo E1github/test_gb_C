@@ -10,8 +10,8 @@ int numDigits = Convert.ToInt32(Console.ReadLine());
 double[] arrayGlobal = CreateArrayRndReal(numCount, InPow(10,numDigits-1), InPow(10,numDigits)-1);
 PrintArray(arrayGlobal);
 
-// выводит сумму минимального и максимального чисел в массиве
-  Console.Write($" -> {Math.Round((MinElementInArray(arrayGlobal)+MaxElementInArray(arrayGlobal)),2)}");
+// выводит разницу максимального и минимального чисел в массиве
+  Console.Write($" -> {Math.Round((MaxElementInArray(arrayGlobal)-MinElementInArray(arrayGlobal)),2)}");
 
 int InPow(int num, int step)
 {
